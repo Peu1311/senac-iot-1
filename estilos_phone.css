@@ -29,7 +29,7 @@ header.phone{
     background-color:var(--cor-secundaria);
     grid-area: head;
     font-family: var(--fonte);
-    font-size: larger;
+    font-size: medium;
     height: 5vh;
     max-width: 100vw;
 }
