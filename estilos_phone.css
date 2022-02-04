@@ -38,7 +38,7 @@ main.phone{
     background-color: var(--branco-transp);
     grid-area: main;
     font-family: var(--fonte);
-    font-size: x-large;
+    font-size: larger;
     max-height: 90vh;
     max-width: 80vw;
 }
