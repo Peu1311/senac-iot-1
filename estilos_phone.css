@@ -39,8 +39,9 @@ main.phone{
     grid-area: main;
     font-family: var(--fonte);
     font-size: larger;
-    max-height: 90vh;
+    min-height: 90vh;
     max-width: 80vw;
+    display: flexbox;
 }
 
 footer.phone{
