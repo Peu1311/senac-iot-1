@@ -30,7 +30,7 @@ header.desktop{
     grid-area: head;
     font-family: var(--fonte);
     font-size: x-large;
-    height: 5vh;
+    min-height: 5vh;
     max-width: 100vw;
 }
 
@@ -48,6 +48,6 @@ footer.desktop{
     background-color: var(--cor-quartenaria);
     grid-area: foot;
     font-family: var(--fonte);
-    height: 5vh;
+    min-height: 5vh;
     max-width: 100vw;
 }
