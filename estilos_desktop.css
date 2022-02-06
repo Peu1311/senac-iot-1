@@ -41,10 +41,7 @@ main.desktop{
     font-size: x-large;
     min-height: 90vh;
     max-width: 80vw;
-}
-
-h1.index{
-    margin-top: 75vh;
+    display: flexbox;
 }
 
 footer.desktop{
