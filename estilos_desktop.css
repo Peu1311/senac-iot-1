@@ -36,6 +36,7 @@ header.desktop{
 
 main.desktop{
     background-color: var(--branco-transp);
+    box-shadow: 0px 10px 5px black;
     grid-area: main;
     font-family: var(--fonte);
     font-size: x-large;
