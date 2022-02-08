@@ -50,7 +50,7 @@ main.desktop{
     font-size: x-large;
     min-height: 90vh;
     max-width: 80vw;
-    display: grid;
+    display: block;
 }
 
 article.cien{
