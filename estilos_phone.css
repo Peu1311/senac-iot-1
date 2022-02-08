@@ -50,7 +50,15 @@ main.phone{
     font-size: larger;
     min-height: 90vh;
     max-width: 80vw;
-    display: flexbox;
+    display: grid;
+}
+
+article.hist{
+    display: grid;
+    grid-template-areas: 'auto'
+                        'auto'
+                        'auto';
+    row-gap: 20px;
 }
 
 article.cien{

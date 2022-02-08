@@ -50,7 +50,14 @@ main.desktop{
     font-size: x-large;
     min-height: 90vh;
     max-width: 80vw;
-    display: block;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+article.hist{
+    display: grid;
+    grid-template-areas: 'auto auto auto';
+    column-gap: 20px;
 }
 
 article.cien{
