@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-/*a regra charset define o encoding utilizado e a regra import traz, neste exemplo, a fonte que será utilizada*/
-
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*declaração de variáveis*/
@@ -49,18 +45,31 @@ main.desktop{
     font-family: var(--fonte);
     font-size: x-large;
     min-height: 90vh;
+    max-height: 100%;
     max-width: 80vw;
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: minmax(20%, 30%) auto;
 }
 
-article.hist{
+section.desktop.hist#sec1{
     display: grid;
-    grid-template-areas: 'auto auto auto';
-    column-gap: 20px;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 0.5%;
+    grid-template-rows: 100%;
+    font-family: var(--fonte);
+    font-size: large;
 }
 
-article.cien{
+section.desktop.hist#sec2{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    column-gap: 1.6%;
+    grid-template-rows: 100%;
+    font-family: var(--fonte);
+    font-size: medium;
+}
+
+section.desktop.cien{
     display: grid;
     grid-template-areas: 'auto auto auto';
     column-gap: 20px;
