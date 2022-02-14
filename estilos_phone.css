@@ -24,7 +24,7 @@ body.phone{
     background-color: grey;
     display: grid;
     grid-template-areas: 'head head head'
-                        '. main .'
+                        '. main as'
                         'foot foot foot';
     grid-template-columns: 10vw 80vw 10vw;
 }
@@ -47,6 +47,11 @@ main.phone{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
+}
+
+aside{
+    grid-area: as;
+    background-color: var(--cor-terciaria);
 }
 
 section.hist{
