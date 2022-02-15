@@ -59,7 +59,7 @@ main.phone.hist{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
-    grid-template-rows: 20% 35% 35%;
+    grid-template-rows: 20% auto auto;
     row-gap: 5%;
 }
 
