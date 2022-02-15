@@ -79,6 +79,10 @@ aside.phone{
     background-color: var(--cor-terciaria);
 }
 
+aside.phone > a{
+    text-decoration: none;
+}
+
 section.phone.hist#sec1{
     display: grid;
     grid-template-rows: 30% 30% 30%;
