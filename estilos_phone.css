@@ -55,7 +55,7 @@ main.phone.hist{
     box-shadow: 0px 10px 5px black;
     grid-area: main;
     font-family: var(--fonte);
-    font-size: larger;
+    font-size: medium;
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
