@@ -84,21 +84,18 @@ aside.phone > a{
 }
 
 section.phone.hist#sec1{
-    display: grid;
-    grid-template-rows: 30% 30% 30%;
-    row-gap: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 section.phone.hist#sec2{
-    display: grid;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    row-gap: 0.6%;
+    display: flex;
+    flex-direction: column;
 }
 
 section.phone.cien{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 footer.phone{
