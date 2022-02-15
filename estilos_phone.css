@@ -67,7 +67,7 @@ main.phone.cien{
     box-shadow: 0px 10px 5px black;
     grid-area: main;
     font-family: var(--fonte);
-    font-size: larger;
+    font-size: medium;
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
@@ -91,7 +91,8 @@ section.phone.hist#sec1{
 
 section.phone.hist#sec2{
     display: grid;
-    grid-template-rows: 1.6% 1.6% 1.6% 1.6% 1.6% 1.6%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    row-gap: 0.6%;
 }
 
 section.phone.cien{
