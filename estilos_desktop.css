@@ -85,6 +85,7 @@ aside.desktop{
     width: 85%;
     height: 85%;
     margin: auto;
+    box-shadow: 0px 0px 10px black;
 }
 
 aside.desktop > a{

@@ -38,7 +38,7 @@ header.phone{
     max-width: 100vw;
 }
 
-main.phone{
+main.phone.index{
     background-color: var(--branco-transp);
     box-shadow: 0px 10px 5px black;
     grid-area: main;
@@ -47,25 +47,53 @@ main.phone{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
+    grid-template-rows: 20% auto;
 }
 
-aside{
+main.phone.hist{
+    background-color: var(--branco-transp);
+    box-shadow: 0px 10px 5px black;
+    grid-area: main;
+    font-family: var(--fonte);
+    font-size: larger;
+    min-height: 90vh;
+    max-width: 80vw;
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+}
+
+main.phone.cien{
+    background-color: var(--branco-transp);
+    box-shadow: 0px 10px 5px black;
+    grid-area: main;
+    font-family: var(--fonte);
+    font-size: larger;
+    min-height: 90vh;
+    max-width: 80vw;
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+
+aside.phone{
     grid-area: as;
     background-color: var(--cor-terciaria);
 }
 
-section.hist{
+section.phone.hist#sec1{
     display: grid;
-    grid-template-areas: 'auto'
-                        'auto'
-                        'auto';
-    row-gap: 20px;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 5%;
 }
 
-section.cien{
+section.phone.hist#sec2{
     display: grid;
-    grid-template-areas: 'auto auto auto';
-    column-gap: 20px;
+    grid-template-rows: 1.6% 1.6% 1.6% 1.6% 1.6% 1.6%;
+}
+
+section.phone.cien{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
 }
 
 footer.phone{
