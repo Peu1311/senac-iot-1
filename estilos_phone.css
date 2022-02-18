@@ -47,7 +47,7 @@ main.phone.index{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
-    grid-template-rows: 20% auto;
+    grid-template-rows: 18vh auto;
 }
 
 main.phone.hist{
@@ -59,8 +59,8 @@ main.phone.hist{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
-    grid-template-rows: 20% auto auto;
-    row-gap: 5%;
+    grid-template-rows: 18vh auto auto;
+    row-gap: 20px;
 }
 
 main.phone.cien{
@@ -72,7 +72,7 @@ main.phone.cien{
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
-    grid-template-rows: 20% auto;
+    grid-template-rows: 18vh auto;
     row-gap: 20px;
 }
 
@@ -92,19 +92,19 @@ aside.phone > a{
 section.phone.hist#sec1{
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 36vh;
 }
 
 section.phone.hist#sec2{
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 36vh;
 }
 
 section.phone.cien{
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 72vh;
 }
 
 footer.phone{

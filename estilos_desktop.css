@@ -45,10 +45,10 @@ main.desktop.index{
     font-family: var(--fonte);
     font-size: x-large;
     min-height: 90vh;
-    max-height: 100%;
+    /*max-height: 100%;*/
     max-width: 80vw;
     display: grid;
-    grid-template-rows: minmax(20%, 30%) auto;
+    grid-template-rows: minmax(20vh, 30vh) auto;
 }
 
 main.desktop.hist{
@@ -58,7 +58,7 @@ main.desktop.hist{
     font-family: var(--fonte);
     font-size: x-large;
     min-height: 90vh;
-    max-height: 100%;
+    /*max-height: 100%;*/
     max-width: 80vw;
     display: grid;
     grid-template-rows: 30% 30% 30%;
@@ -72,10 +72,10 @@ main.desktop.cien{
     font-family: var(--fonte);
     font-size: x-large;
     min-height: 90vh;
-    max-height: 100%;
+    /*max-height: 100%;*/
     max-width: 80vw;
     display: grid;
-    grid-template-rows: minmax(20%, 30%) auto;
+    grid-template-rows: minmax(20vh, 30vh) auto;
 }
 
 aside.desktop{
