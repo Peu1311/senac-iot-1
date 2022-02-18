@@ -55,7 +55,7 @@ main.phone.hist{
     box-shadow: 0px 10px 5px black;
     grid-area: main;
     font-family: var(--fonte);
-    font-size: medium;
+    font-size: larger;
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
@@ -68,7 +68,7 @@ main.phone.cien{
     box-shadow: 0px 10px 5px black;
     grid-area: main;
     font-family: var(--fonte);
-    font-size: medium;
+    font-size: larger;
     min-height: 90vh;
     max-width: 80vw;
     display: grid;
@@ -79,6 +79,10 @@ main.phone.cien{
 aside.phone{
     grid-area: as;
     background-color: var(--cor-terciaria);
+    height: 85%;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
 }
 
 aside.phone > a{
@@ -88,19 +92,19 @@ aside.phone > a{
 section.phone.hist#sec1{
     display: flex;
     flex-direction: column;
-    min-heigth: 100%;
+    min-height: 100%;
 }
 
 section.phone.hist#sec2{
     display: flex;
     flex-direction: column;
-    min-heigth: 100%;
+    min-height: 100%;
 }
 
 section.phone.cien{
     display: flex;
     flex-direction: column;
-    min-heigth: 100%;
+    min-height: 100%;
 }
 
 footer.phone{
