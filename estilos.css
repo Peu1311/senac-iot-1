@@ -1,0 +1,87 @@
+/*Página de estilos*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*importação de fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*declaração de variáveis*/
+
+:root{
+    --fonte:'Roboto', sans-serif;
+    --cor-principal:rgb(114, 235, 59);
+    --cor-secundaria:rgb(165, 238, 131);
+    --cor-terciaria:rgb(90, 184, 46);
+    --cor-quartenaria:rgb(74, 107, 59);
+    --branco-transp: rgb(255,255,255,0.6);
+}
+
+/*layout padrão para todas as páginas usando media queries para telas pequenas*/
+
+body{
+    background-image: linear-gradient(white, black);
+    display: grid;
+    grid-template-columns: repeat(12, 8vw);
+    column-gap: 0.3vw;
+    grid-template-areas: "head head head head head head head head head head head head"
+                            'as . main main main main main main main main . nav';
+}
+
+@media screen and (max-width:768px) {
+    body{
+        grid-template-columns: repeat(12, 8vw);
+        grid-template-areas: "head head head head head head head head head head head head"
+                            '. . main main main main main main main main . .'
+                            'as . nav nav nav nav nav nav nav nav . .';
+    }
+}
+
+header{
+    background-color: var(--cor-principal);
+    grid-area: head;
+    font-family: var(--fonte), sans-serif;
+    padding: 1vh 1vw;
+    min-height: 10vh;
+    font-size: 5vmin;
+}
+
+main{
+    background-color: var(--branco-transp);
+    grid-area: main;
+    box-shadow: 0px 0px 20px black;
+    font-family: var(--fonte), sans-serif;
+    min-height: 90vh;
+    padding: 1vh 1vw;
+    font-size: 3vmin;
+}
+
+nav{
+    background-color: var(--cor-terciaria);
+    grid-area: nav;
+    max-height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1vh 1vw;
+}
+
+aside{
+    background-color: var(--cor-quartenaria);
+    grid-area: as;
+    padding: 1vh 1vw;
+    min-height: 3vh;
+    border-radius: 5px;
+    height: min-content;
+}
+
+/*estilos por página, usando a classe destinada à página*/
