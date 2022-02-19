@@ -85,3 +85,36 @@ aside{
 }
 
 /*estilos por página, usando a classe destinada à página*/
+
+/*estilo da página hist*/
+@media screen and (min-width: 768px) {
+    main.hist{
+        display: grid;
+        grid-template-rows: min-content 35% 55%;
+    }
+    .hist#sec1{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        column-gap: 0.5%;
+        font-size: 3vmin;
+    }
+    .hist#sec2{
+        display: grid;
+        grid-template-columns: repeat(5, 18%);
+        column-gap: 2%;
+        font-size: 2.5vmin;
+    }
+}
+
+/*estilo da página cien*/
+@media screen and (min-width:768px) {
+    main.cien{
+        display: grid;
+        grid-template-rows: min-content max-content;
+    }
+    .cien#sec1{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        column-gap: 0.5%;
+    }
+}
