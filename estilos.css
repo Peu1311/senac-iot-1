@@ -79,6 +79,7 @@ aside{
 
 h1.tit{
     grid-area: tit;
+    font-size: 5vmin;
 }
 
 /*estilos por página, usando a classe destinada à página*/
