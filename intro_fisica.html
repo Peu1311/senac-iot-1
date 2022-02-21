@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!--TODOS os elementos devem ter a classe referente à sua página-->
+
+<html lang="pt-br" class="ifis">
+<head class="ifis">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="ifis">IOT</title>
+    <!--Link para a folha de estilos-->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!--Link para o javascript do mathml-->
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body class="ifis">
+    <header class="ifis">
+        <h1 class="ifis tit">Habilitação Profissional Técnica em Internet das Coisas Integrado ao Ensino Médio</h1>
+        <aside class="ifis">
+            <a href="ciencia_pseudo.html" class="ifis"><img src="outline_arrow_back_black_24dp.png" alt="" class="ifis"></a>
+            <a href="#" class="ifis"><img src="outline_arrow_forward_black_24dp.png" alt="" class="ifis"></a>
+        </aside>
+        <nav class="ifis">
+            <a href="#" class="ifis">Primeiro Link</a>
+            <a href="#" class="ifis">Segundo Link</a>
+        </nav>
+    </header>
+    <main class="ifis">
+        <h1 class="ifis">Introdução à Física</h1>
+        <section class="ifis" id="sec1">
+            <details class="ifis">
+                <summary class="ifis">O que é Física?</summary>
+                <p class="ifis">De forma bem simplória, mas não menos precisa, podemos dizer que <var>Física</var> é uma forma de descrever a natureza utilizando a linguagem matemática.</p>
+            </details>
+            <details class="ifis">
+                <summary class="ifis">Por que estudar Física?</summary>
+                <p class="ifis">O estudo sistemático da física faz com que estruturemos nosso pensamento, uma vez que, é preciso seguir uma estrutura para a resolução e coompreensão da maioria dos problemas apresentados.</p>
+            </details>
+            <details class="ifis">
+                <summary class="ifis">Física é matemática?</summary>
+                <math class="ifis" display="block">
+                    <!--É inviável colocar classe em cada tag mathml!!!!-->
+                    <maction actiontype="toggle">
+                        <mrow class="ifis pitagoras">
+                            <msup>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>=</mo>
+                            <mrow>
+                                <msup>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>+</mo>
+                                <msup>
+                                    <mi>c</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                        </mrow>
+
+                        <mrow class="ifis seg_lei">
+                            <mover>
+                                <mi>F</mi>
+                                <mi>&rarr;</mi>
+                            </mover>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>m</mi>
+                                <mo>&sdot;</mo>
+                                <mover>
+                                    <mi>v</mi>
+                                    <mi>&rarr;</mi>
+                                </mover>
+                            </mrow>
+                        </mrow>
+
+                        <mrow class="ifis lei_gas">
+                            <mrow>
+                                <mi>P</mi>
+                                <mo>&sdot;</mo>
+                                <mi>V</mi>
+                            </mrow>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>n</mi>
+                                <mi>&sdot;</mi>
+                                <mi>R</mi>
+                                <mi>&sdot;</mi>
+                                <mi>T</mi>
+                            </mrow>
+                        </mrow>
+                    </maction>
+                </math>
+                <p class="ifis">Não, física e matemática são áreas distintas do conhecimento humano, na física usamos a matemática como linguagem e ferramenta para exemplificar e solucionar fenômenos observados.</p>
+            </details>
+        </section>
+    </main>
+</body>
+</html>
