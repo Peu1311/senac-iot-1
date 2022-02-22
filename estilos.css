@@ -137,3 +137,63 @@ h1.tit{
         font-size: 2.5vmin;
     }
 }
+
+/*estilo da página sref*/
+
+@media screen and (min-width:768px) {
+    .sref#gif1{
+        width: 150px;
+        height: 150px;
+    }
+
+    main.sref{
+        display: grid;
+        grid-template-rows: min-content max-content;
+    }
+
+    .sref#sec1{
+        display: grid;
+        grid-template-rows: min-content;
+    }
+}
+
+.sref#gif1{
+    width: 100px;
+    height: 100px;
+}
+
+li.sref{
+    list-style-type:none;
+}
+
+/*estilo da página atvsref*/
+
+@media screen and (min-width:768px) {
+    main.atvsref{
+        display: grid;
+        grid-template-rows: min-content max-content;
+    }
+
+    .atvsref#sec1{
+        display: grid;
+        grid-template-areas: 'h2 h2'
+                            'sec2 sec3';
+        column-gap: 10%;
+    }
+
+    h2.atvsref{
+        grid-area: h2;
+    }
+
+    .atvsref#sec2{
+        grid-area: sec2;
+    }
+
+    .atvsref#sec3{
+        grid-area: sec3;
+    }
+}
+
+li.atvsref{
+    list-style-type: none;
+}
