@@ -44,7 +44,7 @@ header{
     min-height: min-content;
     display: grid;
     grid-template-areas: 'tit tit tit tit tit tit tit tit tit tit tit tit'
-    'as . . . . . . . . . . nav';
+    'as as . . . . . . . . . nav';
 }
 
 main{
@@ -132,9 +132,9 @@ h1.tit{
     }
     .ifis#sec1{
         display: grid;
-        grid-template-columns: repeat(3, 33%);
-        row-gap: 0.5%;
-        font-size: 2.5vmin;
+        grid-template-columns: repeat(3, 30%);
+        column-gap: 4.5%;
+        font-size: 3vmin;
     }
 }
 
