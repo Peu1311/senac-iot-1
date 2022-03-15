@@ -205,3 +205,12 @@ li.sref{
 li.atvsref{
     list-style-type: none;
 }
+
+/*estilo da página origem*/
+
+@media screen and (min-width:768px) {
+    main.origem{
+        display: grid;
+        grid-template-rows: min-content max-content;
+    }
+}
