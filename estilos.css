@@ -214,6 +214,10 @@ li.atvsref{
         grid-template-rows: min-content max-content;
     }
     
+    section.origem.video{
+        margin: auto;
+    }
+    
     iframe.origem{
         width: 560px;
         height: 315px;
