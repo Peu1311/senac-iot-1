@@ -213,6 +213,11 @@ li.atvsref{
         display: grid;
         grid-template-rows: min-content max-content;
     }
+    
+    iframe.origem{
+        width: 560px;
+        height: 315px;
+    }
 }
 
 /*estilo específico para o vídeo não quebrar em smartphone*/
