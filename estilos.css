@@ -102,7 +102,7 @@ section.qr{
 @media screen and (min-width: 768px) {
     main.hist{
         display: grid;
-        grid-template-rows: min-content 35% 55%;
+        grid-template-rows: min-content min-content minmax(55px 100px);
     }
     .hist#sec1{
         display: grid;
@@ -213,11 +213,11 @@ li.atvsref{
         display: grid;
         grid-template-rows: min-content max-content;
     }
-    
+
     section.origem.video{
         margin: auto;
     }
-    
+
     iframe.origem{
         width: 560px;
         height: 315px;
