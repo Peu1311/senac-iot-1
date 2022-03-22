@@ -209,6 +209,21 @@ li.atvsref{
     list-style-type: none;
 }
 
+iframe.atvsref{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
+
+/*Estilo específico para o formulário não quebrar no smartphone*/
+
+@media screen and (max-width:768px) {
+    iframe.atvsref{
+        width: 640px;
+        height: 480px;
+    }    
+}
+
 /*estilo da página origem*/
 
 @media screen and (min-width:768px) {
