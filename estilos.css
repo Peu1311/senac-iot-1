@@ -182,7 +182,7 @@ li.sref{
 @media screen and (min-width:768px) {
     main.atvsref{
         display: grid;
-        grid-template-rows: min-content max-content;
+        grid-template-rows: min-content max-content auto;
     }
 
     .atvsref#sec1{
@@ -211,7 +211,7 @@ li.atvsref{
 
 iframe.atvsref{
     width: 90%;
-    height: 60%;
+    height: 100%;
     margin: auto;
 }
 
