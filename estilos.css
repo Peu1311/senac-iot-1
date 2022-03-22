@@ -265,6 +265,7 @@ iframe.atvsref{
 
 table.ordem, th.ordem, td.ordem{
     border: 1px solid black;
+    text-align: center;
 }
 
 /*estilo da página og_e*/
