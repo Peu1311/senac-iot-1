@@ -268,14 +268,14 @@ table.ordem, th.ordem, td.ordem{
     text-align: center;
 }
 
-/*estilo da página og_e*/
+/*estilo da página og_e e og_ee*/
 
 .result{
     color: red;
 }
 
 @media screen and (min-width:768px) {
-    main.og_e{
+    main.og_e , main.og_ee{
         display: grid;
         grid-template-rows: min-content min-content min-content min-content;
         row-gap: 3%;
@@ -284,9 +284,9 @@ table.ordem, th.ordem, td.ordem{
                             'sec1 sec2'
                             'f f';
     }
-    .og_e#h{grid-area: h;}
-    .og_e#t{grid-area: t;}
-    .og_e#sec1{grid-area: sec1;}
-    .og_e#sec2{grid-area: sec2;}
-    .og_e#f{grid-area: f;}
+    .og_e#h , .og_ee#h{grid-area: h;}
+    .og_e#t , .og_ee#t{grid-area: t;}
+    .og_e#sec1 , .og_ee#sec1{grid-area: sec1;}
+    .og_e#sec2 , .og_ee#sec2{grid-area: sec2;}
+    .og_e#f , .og_ee#f{grid-area: f;}
 }
