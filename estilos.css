@@ -290,3 +290,25 @@ table.ordem, th.ordem, td.ordem{
     .og_e#sec2 , .og_ee#sec2{grid-area: sec2;}
     .og_e#f , .og_ee#f{grid-area: f;}
 }
+
+/*estilo da página pri_bim*/
+
+@media screen and (min-width:768px) {
+    main.pri_bim{
+        display: grid;
+    }
+    iframe.pri_bim{
+        width: 90%;
+        height: 70vh;
+        margin: auto;
+    }
+}
+
+/*estilo específico para o vídeo não quebrar em smartphone*/
+
+@media screen and (max-width:768px) {
+    iframe.pri_bim{
+        max-width: 100%;
+        margin: auto;
+    }
+}
