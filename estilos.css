@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    display: none
+}
+
 /*importação de fonte*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -34,6 +38,7 @@ body{
     column-gap: 0.3vw;
     grid-template-areas: "head head head head head head head head head head head head"
                             '. . main main main main main main main main qr .';
+    grid-template-rows: auto auto;
 }
 
 header{
@@ -53,6 +58,7 @@ main{
     box-shadow: 0px 0px 20px black;
     font-family: var(--fonte), sans-serif;
     min-height: 80vh;
+    max-height: max-content;
     padding: 1vh 1vw;
     font-size: 3vmin;
 }
@@ -102,7 +108,8 @@ section.qr{
 @media screen and (min-width: 768px) {
     main.hist{
         display: grid;
-        grid-template-rows: min-content min-content minmax(55px 100px);
+        grid-template-rows: min-content min-content auto;
+        row-gap: 2%;
     }
     .hist#sec1{
         display: grid;
@@ -112,7 +119,7 @@ section.qr{
     }
     .hist#sec2{
         display: grid;
-        grid-template-columns: repeat(5, 18%);
+        grid-template-columns: repeat(3, 30%);
         column-gap: 2%;
         font-size: 2.5vmin;
     }
@@ -179,7 +186,7 @@ li.sref{
 @media screen and (min-width:768px) {
     main.atvsref{
         display: grid;
-        grid-template-rows: min-content max-content;
+        grid-template-rows: min-content max-content auto;
     }
 
     .atvsref#sec1{
@@ -206,6 +213,21 @@ li.atvsref{
     list-style-type: none;
 }
 
+iframe.atvsref{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+/*Estilo específico para o formulário não quebrar no smartphone*/
+
+@media screen and (max-width:768px) {
+    iframe.atvsref{
+        width: 640px;
+        height: 480px;
+    }    
+}
+
 /*estilo da página origem*/
 
 @media screen and (min-width:768px) {
@@ -228,6 +250,68 @@ li.atvsref{
 
 @media screen and (max-width:768px) {
     iframe.origem{
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+/*estilo da página ordem*/
+
+@media screen and (min-width:768px) {
+    main.ordem{
+        display: grid;
+        grid-template-rows: min-content min-content;
+        row-gap: 2%;
+    }
+}
+
+/*estilo específico para a tabela da página ordem*/
+
+table.ordem, th.ordem, td.ordem{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*estilo da página og_e e og_ee*/
+
+.result{
+    color: red;
+}
+
+@media screen and (min-width:768px) {
+    main.og_e , main.og_ee{
+        display: grid;
+        grid-template-rows: min-content min-content min-content min-content;
+        row-gap: 3%;
+        grid-template-areas: 'h h'
+                            't t'
+                            'sec1 sec2'
+                            'f f';
+    }
+    .og_e#h , .og_ee#h{grid-area: h;}
+    .og_e#t , .og_ee#t{grid-area: t;}
+    .og_e#sec1 , .og_ee#sec1{grid-area: sec1;}
+    .og_e#sec2 , .og_ee#sec2{grid-area: sec2;}
+    .og_e#f , .og_ee#f{grid-area: f;}
+}
+
+/*estilo da página pri_bim*/
+
+@media screen and (min-width:768px) {
+    main.pri_bim{
+        display: grid;
+    }
+    iframe.pri_bim{
+        width: 90%;
+        height: 70vh;
+        margin: auto;
+    }
+}
+
+/*estilo específico para o vídeo não quebrar em smartphone*/
+
+@media screen and (max-width:768px) {
+    iframe.pri_bim{
         max-width: 100%;
         margin: auto;
     }
