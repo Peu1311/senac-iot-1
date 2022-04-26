@@ -337,3 +337,13 @@ table.ordem, th.ordem, td.ordem{
         row-gap: 3%;
     }
 }
+
+/*estilo da página kelvin*/
+
+@media screen and (min-width:768px) {
+    main.kelvin{
+        display: grid;
+        grid-template-rows: min-content min-content min-content;
+        row-gap: 3%;
+    }
+}
