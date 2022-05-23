@@ -347,3 +347,19 @@ table.ordem, th.ordem, td.ordem{
         row-gap: 3%;
     }
 }
+
+/*estilo da página calor*/
+
+@media screen and (min-width:768px) {
+    main.calor{
+        display: grid;
+        grid-template-rows: min-content min-content min-content min-content;
+        row-gap: 3%;
+    }
+
+    section.calor#sec2{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+    }
+}
