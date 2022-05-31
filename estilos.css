@@ -363,3 +363,19 @@ table.ordem, th.ordem, td.ordem{
         column-gap: 5%;
     }
 }
+
+/*estilo da página dilatação*/
+
+@media screen and (min-width:768px) {
+    main.dilatacao{
+        display: grid;
+        grid-template-rows: min-content min-content min-content;
+        row-gap: 3%;
+    }
+
+    section.dilatacao#sec2{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+    }
+}
