@@ -95,7 +95,7 @@ h1.tit{
 
 section.qr{
     grid-area: qr;
-    background-image: url(qr\ code\ site.png);
+    background-image: url(qr_code_site.png);
     background-size: cover;
     width: 100%;
     height: 8vw;
@@ -243,6 +243,8 @@ iframe.atvsref{
 
     section.origem.video{
         margin: auto;
+        display: grid;
+        place-items: center;
     }
 
     iframe.origem{
@@ -376,6 +378,28 @@ table.ordem, th.ordem, td.ordem{
     section.dilatacao#sec2{
         display: grid;
         grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+    }
+}
+
+/*estilo para a página calor sensível*/
+
+@media screen and (min-width:768px) {
+    main.cal_sens{
+        display: grid;
+        grid-template-rows: min-content min-content min-content;
+        row-gap: 3%;
+    }
+    
+    section.cal_sens#sec1{
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        column-gap: 3%;
+    }
+
+    section.cal_sens#sec2{
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
         column-gap: 5%;
     }
 }

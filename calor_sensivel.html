@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!--TODOS os elementos devem possuir a classe referente à sua página-->
+
+<html lang="pt-br" class="cal_sens">
+<head class="cal_sens">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="cal_sens">IOT</title>
+    <!--Link para a folha de estilos-->
+    <link rel="stylesheet" href="estilos.css">
+    
+    <!--Link para o javascript do mathml-->
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body class="cal_sens">
+    <header class="cal_sens">
+        <h1 class="tit cal_sens">
+            Habilitação Profissional Técnica em Internet das Coisas Integrado ao Ensino Médio
+        </h1>
+        <aside class="cal_sens">
+            <a href="dilatacao.html" class="cal_sens"><img src="outline_arrow_back_black_24dp.png" alt="" class="cal_sens"></a>
+            <a href="#" class="cal_sens"><img src="outline_arrow_forward_black_24dp.png" alt="" class="cal_sens"></a>
+        </aside>
+        <nav class="cal_sens">
+            <a href="#" class="cal_sens">primeiro link</a>
+            <a href="#" class="cal_sens">segundo link</a>
+        </nav>
+    </header>
+    <main class="cal_sens">
+        <h1 class="cal_sens">Calor Sensível e Calor Latente</h1>
+        <section class="cal_sens" id="sec1">
+            <details class="cal_sens">
+                <summary class="cal_sens">Capacidade Térmica</summary>
+                <p class="cal_sens">A capacidade Térmica <var>(C)</var> de um corpo indica a quantidade de calor que ele precisa receber ou ceder para que sua temperatura varie uma unidade. 
+                    <math>
+                        <mi>C</mi><mo>=</mo><mrow><mfrac><mi>Q</mi><mrow><mi>&Delta;</mi><mi>&Theta;</mi></mrow></mfrac></mrow>
+                    </math>
+                A unidade usual da capacidade térmica é a caloria por grau Celsius
+            [<math>
+                <mfrac><mi>cal</mi><mi>°C</mi></mfrac>
+            </math>].</p>
+            </details>
+
+            <details class="cal_sens">
+                <summary class="cal_sens">Calor Específico</summary>
+                <p class="cal_sens">O calor específico <var>(c)</var> indica a quantidade de calor que cada unidade de massa do corpo precisa receber ou ceder para que sua temperatura varie um unidade 
+                <math>
+                    <mi>c</mi><mo>=</mo><mrow><mfrac><mi>C</mi><mi>m</mi></mfrac></mrow>
+                </math>;
+                <math>
+                    <mi>c</mi><mo>=</mo><mfrac><mi>Q</mi><mrow><mi>m</mi><mo>&sdot;</mo><mi>&Delta;</mi><mi>&Theta;</mi></mrow></mfrac>
+                </math>.
+            </p>
+            </details>
+
+            <details class="cal_sens">
+                <summary class="cal_sens">Calor Sensível</summary>
+                <p class="cal_sens">É o calor que, recebido ou cedido por um corpo, provoca nele uma variação de temperatura
+                    <math>
+                        <mi>Q</mi><mo>=</mo><mrow><mi>m</mi><mo>&sdot;</mo><mi>c</mi><mo>&sdot;</mo><mi>&Delta;</mi><mi>&Theta;</mi></mrow>
+                    </math>
+                , essa equação também é chamada de <var>Equação Fundamental da Calorimetria</var>.
+                </p>
+            </details>
+
+            <details class="cal_sens">
+                <summary class="cal_sens">Calor Latente</summary>
+                <p class="cal_sens">É a energia térmica que se transforma em energia potencial de agregação. Essa transformação pode alterar o arranjo físico das partículas do sistema e provocar uma mudança de estado, sem, no entanto, alterar a temperatura
+                    <math>
+                        <mi>Q</mi><mo>=</mo><mrow><mi>m</mi><mo>&sdot;</mo><mi>L</mi></mrow>
+                    </math>
+                , onde <var>L</var> é a grandeza denominada <var>calor latente</var>.
+                </p>
+            </details>
+        </section>
+
+        <section class="cal_sens" id="sec2">
+            <details class="cal_sens">
+                <summary class="cal_sens">Sistema Físico Isolado</summary>
+                <p class="cal_sens">Dizemos que um sistema físico é termicamente isolado quando não existe troca de calor entre seus componentes e o meio externo
+                    <math>
+                        <mrow><mi>&Sigma;</mi><msub><mi>Q</mi><mi>cedido</mi></msub></mrow><mo>+</mo><mrow><mi>&Sigma;</mi><msub><mi>Q</mi><mi>recebido</mi></msub></mrow><mo>=</mo><mn>0</mn>
+                    </math>
+                .</p>
+            </details>
+            <details class="cal_sens">
+                <summary class="cal_sens">Mudanças de estado físico</summary>
+                <p class="cal_sens">De forma geral consideramos que os corpos podem ser encontrados na natureza em três estados físicos possíveis: <var>Sólido</var>, <var>Líquido</var> e <var>Gasoso</var>, quando consideramos as mudanças de estado entendemos que não há mudança na temperaturado corpo, logo usamos o calor latente para calcularmos estes pontos.</p>
+            </details>
+        </section>
+    </main>
+    <section class="qr cal_sens"></section>
+</body>
+</html>
