@@ -335,7 +335,7 @@ table.ordem, th.ordem, td.ordem{
 @media screen and (min-width:768px) {
     main.termometro{
         display: grid;
-        grid-template-rows: min-content min-content auto;
+        grid-template-rows: max-content max-content max-content;
         row-gap: 3%;
     }
 }
@@ -401,5 +401,27 @@ table.ordem, th.ordem, td.ordem{
         display: grid;
         grid-template-columns: repeat(2, 40%);
         column-gap: 5%;
+    }
+}
+
+/*estilo para a página gás*/
+
+@media screen and (min-width:768px) {
+    main.gas{
+        display: grid;
+        grid-template-rows: min-content min-content min-content;
+        row-gap: 3%;
+    }
+    
+    section.gas#sec1{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        column-gap: 10%;
+    }
+
+    section.gas#sec2{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        column-gap: 3%;
     }
 }
