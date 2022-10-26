@@ -428,6 +428,8 @@ table.ordem, th.ordem, td.ordem{
     }
 }
 
+/*estilo para a página carga*/
+
 @media screen and (min-width:768px) {
     main.carga{
         display: grid;
@@ -442,5 +444,14 @@ table.ordem, th.ordem, td.ordem{
         display: grid;
         grid-template-columns: repeat(3, 30%);
         column-gap: 3%;
+    }
+}
+
+/*estilo para a página processos de eletrização*/
+
+@media screen and (min-width:768px){
+    main.proc_ele{
+        display: grid;
+        grid-template-rows: min-content auto;
     }
 }
